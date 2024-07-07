@@ -1,0 +1,275 @@
+<!-- our wesite code -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>karaoke & Music</title>
+</head>
+
+<body>
+    <!--===========login page=================-->
+    <div class="form-inner">
+        <form action="login.php"method="post" class="login">
+           <div class="field">
+              <input type="text" placeholder="Email Address" name = "email_add"required>
+           </div>
+           <div class="field">
+              <input type="password" placeholder="Password" name= "password" required>
+           </div>
+           <div class="pass-link">
+              <a href="#">Forgot password?</a>
+           </div>
+           <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" name="submit" value="Login">
+           </div>
+
+        </form>
+
+        <form action="signup.php" method="post" class="signup">
+           <div class="field">
+              <input type="text" placeholder="Email Address" name = "email_add" required>
+           </div>
+           <div class="field">
+              <input type="password" placeholder="Password" name= "password" required>
+           </div>
+           <div class="field">
+              <input type="password" placeholder="Confirm password" required>
+           </div>
+           <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" name= "submit" value="Signup">
+           </div>
+        </form>
+     </div>
+  </div>
+</div>
+
+  <!--===========Nav Bar=================-->
+  <section class="nav-bar">
+    <div class="logo"><span id="ayush">Karaoke & </span><span id="HERO">Music</span></div>
+    <ul class="menu">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">YOUR LIBRARY</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </section>
+  <!--===============Banner================-->
+  <section class="banner">
+    <img src="2.jpg" alt="image">
+    <div class="banner-text-item">
+      <div class="banner-heading">
+        <h1>Find your Next song!</h1>
+      </div>
+      <form class="form">
+        <input type="text" list="mylist" placeholder="Search Here">
+        <datalist id="mylist">
+          <option>Jass Manak</option>
+          <option>Post Malon</option>
+          <option>Justin Biber</option>
+          <option>Honey Singh</option>
+          <option>Raftaar</option>
+          <option>Divine</option>
+          <option>Sonu Nigam</option>
+        </datalist>
+        <!-- <input type="date" class="date">
+        <a href="#" class="book">book</a> -->
+      </form>
+    </div>
+  </section>
+
+
+        <!--==============Albums===================-->
+        <section class="Albums">
+            <div class="Albums-text">
+                <!-- <small>favourite Albums</small> -->
+                <h2>Favourite Albums</h2>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img
+                                src="jaassi.jpg">
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        
+                        <h1>Naah</h1>
+                        <h3>Jass Manak</h3>
+                        <p class="time">3 million</p>
+                        <div class="card-box">
+                            <p class="play">play</p>
+                        
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="sidhu.jpg">
+                        </div>
+                    </div>
+
+                    <div class="text">
+                    
+                      <h1>PBX</h1>
+                      <h3>Sidhu Moose Wala</h3>
+                      <p class="time">5 million</p>
+                      <div class="card-box">
+                          <p class="play">play</p>
+                        
+                      </div>
+                  </div>
+
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="post.jpg">
+                        </div>
+                    </div>
+
+                    <div class="text">
+                    
+                      <h1>HollyWood's Bleeding</h1>
+                      <h3>Post Malone</h3>
+                      <p class="time">1 billion</p>
+                      <div class="card-box">
+                          <p class="play">play</p>
+                        
+                      </div>
+                  </div>
+
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img
+                                src="raftaar.jpg">
+                        </div>
+                    </div>
+
+                    <div class="text">
+                    
+                      <h1>Mr. Nair</h1>
+                      <h3>Raftaar</h3>
+                      <p class="time">2 million</p>
+                      <div class="card-box">
+                          <p class="play">play</p>
+                        
+                      </div>
+                  </div>
+
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="honey.jpg">
+                        </div>
+                    </div>
+
+                    <div class="text">
+                    
+                      <h1>Kalakar</h1>
+                      <h3>Honey Singh</h3>
+                      <p class="time">2 billion</p>
+                      <div class="card-box">
+                          <p class="play">play</p>
+                        
+                      </div>
+                  </div>
+
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="divine.jpg">
+                        </div>
+                    </div>
+
+                    <div class="text">
+                    
+                      <h1>Punya Paap/h1>
+                      <h3>Divine</h3>
+                      <p class="time">2.3 million</p>
+                      <div class="card-box">
+                          <p class="play">play</p>
+                        
+                      </div>
+                  </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===========About Us===============-->
+        <section class="about">
+            <div class="about-img">
+                <img src="about.jpg">
+            </div>
+            <div class="about-text">
+                <small>ABOUT US</small>
+                <!-- <h2>THANKS TO VISIT OUR SITE</h2> -->
+                <p> Welcome to MelodySphere, where every note matters and every rhythm connects. Born from a passion for music that transcends genres and eras, we are a community dedicated to the celebration of sound in all its forms.
+
+                  From the heart-thumping beats of rock to the soulful melodies of blues, our website is a sanctuary for music lovers. We believe in the power of music to unite, inspire, and transform. Our mission is to bring you closer to the artists you adore and the tunes that resonate with your soul.
+                  
+                  At MelodySphere, we offer an extensive collection of tracks, insightful artist interviews, and exclusive live sessions that put you front row at the most electrifying concerts. Whether you’re here to explore new sounds or indulge in old favorites, we’ve curated a musical experience that feels personal and boundless.
+                  
+                  Our team comprises seasoned musicians, avid concert-goers, and die-hard fans who understand the pulse of the industry. We’re here to share stories, spark discussions, and keep you updated on the latest trends and hidden gems in the music world.
+                  
+                  Join us on this melodious journey, and let’s make every moment soundtrack-worthy.<br>
+                    K & M
+                    </p>
+
+                <!-- <label><input type="checkbox" checked>Lorem ipsum dolor sit amet</label>
+                <label><input type="checkbox" checked>consectetur adipisicing elit</label>
+                <label><input type="checkbox" checked>Architecto atque consequuntur</label>
+                <label><input type="checkbox" checked>cupiditate doloremque ducimus</label> -->
+                <a href="#">ABOUT US</a>
+            </div>
+        </section>
+
+        <!--===========Footer=================-->
+        <div class="footer">
+            <div class="links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>Feedbacks</li>
+                    <li>Get in touch</li>
+                    <li>Contact Us</li>
+                    <li>About</li>
+                </ul>
+            </div>
+            <!-- <div class="links">
+                <h3>New Products</h3>
+                <ul>
+                    <li>Woman Cloth</li>
+                    <li>Fashion Accessories</li>
+                    <li>Man Accessories</li>
+                    <li>Rubber made Toys</li>
+                </ul>
+            </div> -->
+            <div class="links">
+                <h3>Support</h3>
+                <ul>
+                    <li>Frequently Asked Questions</li>
+                    <li>Report a Payment Issue</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+    
+
+</html>
+</body>
+
+</html>
