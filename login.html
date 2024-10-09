@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ok.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    
+  
+//===========login page=================
+<div class="form-inner">
+    <form action="login.php"method="post" class="login">
+       <div class="field">
+          <input type="text" placeholder="Email Address" name = "email_add"required>
+       </div>
+       <div class="field">
+          <input type="password" placeholder="Password" name= "password" required>
+       </div>
+       <div class="pass-link">
+          <a href="#">Forgot password?</a>
+       </div>
+       <div class="field btn">
+          <div class="btn-layer"></div>
+          <input type="submit" name="submit" value="Login">
+       </div>
+
+    </form>
+
+    <form action="signup.php" method="post" class="signup">
+       <div class="field">
+          <input type="text" placeholder="Email Address" name = "email_add" required>
+       </div>
+       <div class="field">
+          <input type="password" placeholder="Password" name= "password" required>
+       </div>
+       <div class="field">
+          <input type="password" placeholder="Confirm password" required>
+       </div>
+       <div class="field btn">
+          <div class="btn-layer"></div>
+          <input type="submit" name= "submit" value="Signup">
+       </div>
+    </form>
+ </div>
+</div>
+</div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" href="ok.css">
+</head>
+<body background="loginbg.jpeg" ; backgroud-repeat: no-repeat;>
+	<div class="container">
+		<div class="login-form">
+			<h2>Login</h2>
+			<form action="login.php" method="post" class="login">
+               
+				<label for="email">Email Address:</label>
+				<input type="email" id="email" name="email_add" required><br><br>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required><br><br>
+              
+
+				<input type="submit" name="submit" value="Login">
+			</form>
+		</div>
+		<div class="signup-form">
+			<h2>Sign up</h2>
+			<form action="signup.php" method="post" class="signup">
+				<label for="email">Email Address:</label>
+				<input type="email" id="email" name="email_add" required><br><br>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required><br><br>
+				<label for="confirm-password">Confirm Password:</label>
+				<input type="password" id="confirm-password" name="confirm-password" required><br><br>
+				<input type="submit"  name="submit" value="Sign up">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
